@@ -1,0 +1,178 @@
+[Root]
+Most Recent Package=Netab
+Most Recent Deploy=Folder Deployment 1
+
+[Deploy|Folder Deployment 1|Root]
+Package=Netab
+Handler=PDWizard.FolderDplySubWiz
+Folder=C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard
+
+
+[Package|Netab|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Projects\Netab\Package (2)
+
+[Package|Netab|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Netab|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Netab|Files Found]
+
+[Package|Netab|Files Released]
+
+[Package|Netab|Missing Dependency Information]
+C:\unzipped\tbarfexp[1]\vbalTbar.ocx=
+C:\Projects\Netab\cNewMenu.dll=
+C:\Projects\Note Fury\Note Fury\SSUBTMR.DLL=
+C:\WINNT\system32\shfolder.dll=
+C:\WINNT\system32\vbalTbar.ocx=
+C:\WINNT\system32\cNewMenu.dll=
+C:\WINNT\system32\SSubTmr.dll=
+C:\Projects\Netab\vbalIml6.ocx=
+C:\Projects\xuiTreeView6.ocx=
+C:\unzipped\sbarctls[1]\vbalSbar.ocx=
+C:\WINNT\system32\vbalIml.ocx=
+C:\WINNT\system32\xuiTreeView6.ocx=
+
+[Package|Netab|Out-of-Date Dependency Information]
+
+[Package|Netab|Files Added]
+c:\projects\netab\dfc.bmp=
+c:\projects\netab\gftbar24.bmp=
+c:\projects\netab\gftbar24-16.bmp=
+c:\projects\netab\gftbar24m.bmp=
+c:\projects\netab\iebar.bmp=
+c:\projects\netab\mnubar.bmp=
+
+[Package|Netab|Files Removed]
+c:\projects\netab\mnubar.bmp=
+c:\projects\netab\iebar.bmp=
+c:\projects\netab\gftbar24m.bmp=
+c:\projects\netab\gftbar24-16.bmp=
+c:\projects\netab\dfc.bmp=
+c:\projects\netab\gftbar24.bmp=
+c:\winnt\system32\shfolder.dll=
+
+[Package|Netab|Files In Project]
+C:\WINNT\system32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINNT\system32\shfolder.dll=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\WINNT\system32\SSubTmr.dll=Yes
+C:\WINNT\system32\vbalTbar.ocx=Yes
+C:\Projects\Netab\dfc.bmp=No
+C:\Projects\Netab\gftbar24.bmp=No
+C:\Projects\Netab\gftbar24-16.bmp=No
+C:\Projects\Netab\gftbar24m.bmp=No
+C:\Projects\Netab\iebar.bmp=No
+C:\Projects\Netab\mnubar.bmp=No
+C:\WINNT\system32\xuiTreeView6.ocx=Yes
+C:\WINNT\system32\vbalIml.ocx=Yes
+C:\Projects\Netab\cNewMenu.dll=Yes
+C:\Projects\Netab\netab 1 Beta 1.exe=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+
+[Package|Netab|Configure Registry Files]
+Applicable=No
+
+[Package|Netab|Configure Remote Servers]
+Applicable=No
+
+[Package|Netab|Install Locations]
+C:\Projects\Netab\netab prvw rel 1.exe=$(AppPath)
+C:\WINNT\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\shfolder.dll=$(AppPath)
+C:\Projects\Note Fury\Note Fury\SSUBTMR.DLL=$(WinSysPath)
+C:\Projects\Netab\cNewMenu.dll=$(WinSysPath)
+C:\unzipped\tbarfexp[1]\vbalTbar.ocx=$(WinSysPath)
+C:\WINNT\system32\MSCOMCTL.OCX=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINNT\system32\SSubTmr.dll=$(WinSysPath)
+C:\WINNT\system32\cNewMenu.dll=$(WinSysPath)
+C:\WINNT\system32\vbalTbar.ocx=$(WinSysPath)
+C:\Projects\Netab\dfc.bmp=$(AppPath)
+C:\Projects\Netab\gftbar24.bmp=$(AppPath)
+C:\Projects\Netab\gftbar24-16.bmp=$(AppPath)
+C:\Projects\Netab\gftbar24m.bmp=$(AppPath)
+C:\Projects\Netab\iebar.bmp=$(AppPath)
+C:\Projects\Netab\mnubar.bmp=$(AppPath)
+C:\Projects\xuiTreeView6.ocx=$(WinSysPath)
+C:\Projects\Netab\vbalIml6.ocx=$(WinSysPath)
+C:\WINNT\system32\xuiTreeView6.ocx=$(WinSysPath)
+C:\WINNT\system32\vbalIml.ocx=$(WinSysPath)
+C:\unzipped\sbarctls[1]\vbalSbar.ocx=$(WinSysPath)
+C:\Projects\Netab\netab prvw rel 4.exe=$(AppPath)
+C:\Projects\Netab\netab 1 Beta 1.exe=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+
+[Package|Netab|Configure Shared Files]
+Applicable=Yes
+C:\Projects\Netab\netab prvw rel 1.exe=No
+C:\WINNT\system32\shfolder.dll=Yes
+C:\WINNT\system32\SSubTmr.dll=Yes
+C:\WINNT\system32\cNewMenu.dll=Yes
+C:\WINNT\system32\vbalTbar.ocx=Yes
+C:\WINNT\system32\MSCOMCTL.OCX=Yes
+C:\Projects\Netab\dfc.bmp=No
+C:\Projects\Netab\gftbar24.bmp=No
+C:\Projects\Netab\gftbar24-16.bmp=No
+C:\Projects\Netab\gftbar24m.bmp=No
+C:\Projects\Netab\iebar.bmp=No
+C:\Projects\Netab\mnubar.bmp=No
+C:\Projects\Netab\netab prvw rel 4.exe=No
+C:\Projects\Netab\netab 1 Beta 1.exe=No
+
+[Package|Netab|Distribution]
+Type=single
+Size=
+Title=Netab
+
+[Package|Netab|IconGroups]
+Group0=Netab
+PrivateGroup0=-1
+Parent0=$(Programs)
+Group1=$(Start Menu)
+PrivateGroup1=-1
+Parent1=
+
+[Package|Netab|Netab]
+Icon1="netab prvw rel 1.exe"
+Title1=Netab
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Netab|$(Start Menu)]
+Icon1="netab prvw rel 1.exe"
+Title1=Netab
+StartIn1=$(AppPath)
+Key1=Icon5
+
+[Package|Netab|Package]
+PackageFolder=C:\Projects\Netab\Package (2)
+ProjectFolder=C:\Projects\Netab
+ServerSideCab=
+File1=C:\Projects\Netab\Package (2)\setup.exe
+File2=C:\Projects\Netab\Package (2)\Setup.Lst
+File3=C:\Projects\Netab\Package (2)\netab 1 Beta 1.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
