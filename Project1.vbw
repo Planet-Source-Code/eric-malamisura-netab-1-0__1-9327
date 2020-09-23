@@ -1,0 +1,15 @@
+TabControl = -31, 66, 582, 439, C, 56, 186, 557, 602, C
+frmMain = 132, 132, 591, 548, Z, 110, 110, 569, 526, C
+Favorites = 0, 0, 534, 416, C
+modCommon = 176, 176, 636, 592, C
+RegEdit = 19, 131, 628, 547, C
+vbalStatusBar = 154, 154, 614, 570, C, 44, 44, 503, 460, C
+frmAbout = 39, 146, 566, 562, C, -3, -2, 524, 414, C
+cCommonDialog = 88, 88, 512, 504, C
+cMemory = 0, 0, 0, 0, C
+GCommonDialog = 0, 0, 0, 0, C
+mDialogHook = 176, 176, 600, 617, C
+frmSettings = 0, 0, 424, 416, , 78, 68, 502, 484, C
+NetabInitializers = 132, 132, 556, 548, C
+Resizer = 154, 154, 578, 595, C
+modStuff = 88, 88, 615, 504, C
